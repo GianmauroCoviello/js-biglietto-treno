@@ -15,19 +15,19 @@ let prezzo = (km * 0.21)
 if (eta<18) {
     prezzo -= (prezzo * 0.2)
     console.log(prezzo)
-    message = (`il prezzo scontato è di: ${prezzo.toFixed(2)}`)
+    message = (`il prezzo scontato è di: ${prezzo.toFixed(2)}€`)
 
 // SE l' eta è maggiore di 65   
 } else if (eta>65) {
     prezzo -= (prezzo * 0.4)
     console.log(prezzo)
-    message = (`il prezzo scontato è di: ${prezzo.toFixed(2)}`) 
+    message = (`il prezzo scontato è di: ${prezzo.toFixed(2)}€`) 
 
 // ALTRIMENTI se l'età non rientra in nessuno di queste due fasce si paghera il prezzo pieno
 } else {
     (prezzo)
     console.log(prezzo)
-    message = (`il prezzo è di: ${prezzo.toFixed(2)}`)
+    message = (`il prezzo è di: ${prezzo.toFixed(2)}€`)
 }
 
 
